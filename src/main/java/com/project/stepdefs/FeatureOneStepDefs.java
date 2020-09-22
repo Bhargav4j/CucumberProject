@@ -14,11 +14,11 @@ public class FeatureOneStepDefs {
 	public WebDriver driver;
 	SoftAssert assertion = new SoftAssert();
 
-	@After
-	public void afterscenario() {
-		driver.close();
-	}
-	
+//	@After
+//	public void afterscenario() {
+//		driver.close();
+//	}
+//	
 	@Given("user is in login screen of gmail")
 	public void oen() throws InterruptedException {
 

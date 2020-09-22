@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-<suite thread-count="2" name="TestSuiteName" parallel="tests">
-	<test name="TestcasesName">
-		<classes>
-			<class name="com.project.runners.CucumberRunner" />  
-		</classes>
-	</test>
-
-	
-</suite> 
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.project.runners.CucumberRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
