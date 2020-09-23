@@ -14,7 +14,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "FeatureFiles", plugin = { "json:target/cucumber.json",
 		"io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm", "html:target/cucumber.html" }, glue = {
-				"com.project.stepdefs" }, monochrome = true, tags = { "@Sanity" })
+				"com.project.stepdefs","com.project.api" }, monochrome = true, tags = { "@Sanity" })
 //@parallelTestNG
 
 public class CucumberRunner extends AbstractTestNGCucumberTests {
@@ -35,7 +35,9 @@ public class CucumberRunner extends AbstractTestNGCucumberTests {
 	@AfterSuite
 	public void teardown() {
 		System.out.println("I am in After suite");
+		if(BlazeDemoStepDefs.driver!=null){
 		BlazeDemoStepDefs.driver.close();
 		BlazeDemoStepDefs.driver.quit();
+		}
 	}
 }
