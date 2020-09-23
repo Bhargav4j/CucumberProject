@@ -6,6 +6,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
+import com.project.stepdefs.BlazeDemoStepDefs;
+
 import io.cucumber.java.After;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
@@ -33,6 +35,7 @@ public class CucumberRunner extends AbstractTestNGCucumberTests {
 	@AfterSuite
 	public void teardown() {
 		System.out.println("I am in After suite");
-
+		BlazeDemoStepDefs.driver.close();
+		BlazeDemoStepDefs.driver.quit();
 	}
 }

@@ -5,4 +5,7 @@ Scenario: Check user able to book flight
   Given user is in home screen of blaze demo 
 	And user selects departure city and destination city and find flights
 	Then user is navigated to flights list screen
+	And user chooses a flight and enters his details
+	Then Thankyou page is displayed
+	
 	
