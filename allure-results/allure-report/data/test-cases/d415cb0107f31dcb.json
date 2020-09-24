@@ -1,0 +1,139 @@
+{
+  "uid" : "d415cb0107f31dcb",
+  "name" : "Check user able to book flight",
+  "fullName" : "Test Blaze Demo: Check user able to book flight",
+  "historyId" : "e78630a51f1b812e431b41db2a4860d4",
+  "time" : {
+    "start" : 1600789530756,
+    "stop" : 1600789548846,
+    "duration" : 18090
+  },
+  "status" : "broken",
+  "statusMessage" : "java.lang.NullPointerException",
+  "statusTrace" : "java.lang.NullPointerException\r\n\tat com.project.pages.HomePage.selectDeparture(HomePage.java:23)\r\n\tat com.project.stepdefs.BlazeDemoStepDefs.two(BlazeDemoStepDefs.java:45)\r\n\tat ✽.user selects departure city and destination city and find flights(file:FeatureFiles/BlazeDemo.feature:6)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "java.lang.NullPointerException",
+    "statusTrace" : "java.lang.NullPointerException\r\n\tat com.project.pages.HomePage.selectDeparture(HomePage.java:23)\r\n\tat com.project.stepdefs.BlazeDemoStepDefs.two(BlazeDemoStepDefs.java:45)\r\n\tat ✽.user selects departure city and destination city and find flights(file:FeatureFiles/BlazeDemo.feature:6)\r\n",
+    "steps" : [ {
+      "name" : "Given  user is in home screen of blaze demo",
+      "time" : {
+        "start" : 1600789530759,
+        "stop" : 1600789543984,
+        "duration" : 13225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  user selects departure city and destination city and find flights",
+      "time" : {
+        "start" : 1600789543985,
+        "stop" : 1600789543992,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "java.lang.NullPointerException",
+      "statusTrace" : "java.lang.NullPointerException\r\n\tat com.project.pages.HomePage.selectDeparture(HomePage.java:23)\r\n\tat com.project.stepdefs.BlazeDemoStepDefs.two(BlazeDemoStepDefs.java:45)\r\n\tat ✽.user selects departure city and destination city and find flights(file:FeatureFiles/BlazeDemo.feature:6)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then  user is navigated to flights list screen",
+      "time" : {
+        "start" : 1600789543992,
+        "stop" : 1600789543992,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "BlazeDemoStepDefs.afterscenario()",
+    "time" : {
+      "start" : 1600789543996,
+      "stop" : 1600789548844,
+      "duration" : 4848
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Sanity"
+  }, {
+    "name" : "host",
+    "value" : "Govind"
+  }, {
+    "name" : "thread",
+    "value" : "9760@Govind.PoolService-0(12)"
+  }, {
+    "name" : "feature",
+    "value" : "Test Blaze Demo"
+  }, {
+    "name" : "story",
+    "value" : "Check user able to book flight"
+  }, {
+    "name" : "package",
+    "value" : "FeatureFiles.Test Blaze Demo"
+  }, {
+    "name" : "suite",
+    "value" : "Test Blaze Demo"
+  }, {
+    "name" : "testClass",
+    "value" : "Check user able to book flight"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:FeatureFiles/BlazeDemo.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Sanity" ]
+  },
+  "source" : "d415cb0107f31dcb.json",
+  "parameterValues" : [ ]
+}

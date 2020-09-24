@@ -1,0 +1,163 @@
+{
+  "uid" : "24c8fad4c715ce43",
+  "name" : "Check user able to book flight",
+  "fullName" : "Test Blaze Demo: Check user able to book flight",
+  "historyId" : "e78630a51f1b812e431b41db2a4860d4",
+  "time" : {
+    "start" : 1600821993641,
+    "stop" : 1600822008972,
+    "duration" : 15331
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  user is in home screen of blaze demo",
+      "time" : {
+        "start" : 1600821993645,
+        "stop" : 1600822005290,
+        "duration" : 11645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  user selects departure city and destination city and find flights",
+      "time" : {
+        "start" : 1600822005291,
+        "stop" : 1600822006686,
+        "duration" : 1395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  user is navigated to flights list screen",
+      "time" : {
+        "start" : 1600822006687,
+        "stop" : 1600822007261,
+        "duration" : 574
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And  user chooses a flight and enters his details",
+      "time" : {
+        "start" : 1600822007264,
+        "stop" : 1600822008890,
+        "duration" : 1626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then  Thankyou page is displayed",
+      "time" : {
+        "start" : 1600822008891,
+        "stop" : 1600822008966,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "BlazeDemoStepDefs.afterscenario()",
+    "time" : {
+      "start" : 1600822008969,
+      "stop" : 1600822008971,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Sanity"
+  }, {
+    "name" : "host",
+    "value" : "Govind"
+  }, {
+    "name" : "thread",
+    "value" : "6556@Govind.PoolService-0(12)"
+  }, {
+    "name" : "feature",
+    "value" : "Test Blaze Demo"
+  }, {
+    "name" : "story",
+    "value" : "Check user able to book flight"
+  }, {
+    "name" : "package",
+    "value" : "FeatureFiles.Test Blaze Demo"
+  }, {
+    "name" : "suite",
+    "value" : "Test Blaze Demo"
+  }, {
+    "name" : "testClass",
+    "value" : "Check user able to book flight"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:FeatureFiles/BlazeDemo.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Sanity" ]
+  },
+  "source" : "24c8fad4c715ce43.json",
+  "parameterValues" : [ ]
+}

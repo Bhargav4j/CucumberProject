@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Space X Api",
+    "children" : [ {
+      "name" : "Scenario is to test Space X Api",
+      "children" : [ {
+        "name" : "Scenario is to test Space X Api",
+        "uid" : "5d7a237f4af03b4a",
+        "parentUid" : "363f64eea2e31905bb334c30ac1e75da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600866133931,
+          "stop" : 1600866139513,
+          "duration" : 5582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "363f64eea2e31905bb334c30ac1e75da"
+    } ],
+    "uid" : "a071dcea4d3e719de99f0c02ef55fff1"
+  }, {
+    "name" : "Test Blaze Demo",
+    "children" : [ {
+      "name" : "Check user able to book flight",
+      "children" : [ {
+        "name" : "Check user able to book flight",
+        "uid" : "caf7271fe1f75d89",
+        "parentUid" : "38bd44f81393817ed0db2abaa6f2fd2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600866189147,
+          "stop" : 1600866247775,
+          "duration" : 58628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38bd44f81393817ed0db2abaa6f2fd2c"
+    } ],
+    "uid" : "2e79091d9ed719dd5f84a0ef22e7216b"
+  } ]
+}

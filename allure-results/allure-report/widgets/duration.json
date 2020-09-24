@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5d7a237f4af03b4a",
+  "name" : "Scenario is to test Space X Api",
+  "time" : {
+    "start" : 1600866133931,
+    "stop" : 1600866139513,
+    "duration" : 5582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caf7271fe1f75d89",
+  "name" : "Check user able to book flight",
+  "time" : {
+    "start" : 1600866189147,
+    "stop" : 1600866247775,
+    "duration" : 58628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test Space X Api",
+    "children" : [ {
+      "name" : "Scenario is to test Space X Api",
+      "uid" : "5d7a237f4af03b4a",
+      "parentUid" : "f8ab1bb17bf7f4f066f77c79ee3fd941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600866133931,
+        "stop" : 1600866139513,
+        "duration" : 5582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f8ab1bb17bf7f4f066f77c79ee3fd941"
+  }, {
+    "name" : "Test Blaze Demo",
+    "children" : [ {
+      "name" : "Check user able to book flight",
+      "uid" : "caf7271fe1f75d89",
+      "parentUid" : "1ad0d8d4b2d4992d0e192e1bc6eef8a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600866189147,
+        "stop" : 1600866247775,
+        "duration" : 58628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1ad0d8d4b2d4992d0e192e1bc6eef8a9"
+  } ]
+}
